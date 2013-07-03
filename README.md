@@ -252,6 +252,40 @@ Even better, use BEM to keep the specificity down:
 }
 ```
 
+### Indent sub-components in CSS
+Rather than doing crazy SaSS nesting, indent CSS rules for child elements:
+
+```
+.widget{
+    margin-top: 1em;
+    border: solid 1px #eee;
+}
+    
+    /**
+     * The widget title is a heading with an icon
+     */
+    .widget__title{
+        font-size: 2em;
+    }
+
+        .widget__title i{
+            display: inline-block;
+        }
+
+    /**
+     * The body of the widget gets some padding, and we tweak the spacing of
+     * paragraphs so they're a little tighter
+     */
+    .widget__body{
+        padding: 0.5em;
+    }
+
+        .widget__body p{
+            margin-top: 0.5em;
+        }
+
+```
+
 
 ### Don't add styles too early
 
