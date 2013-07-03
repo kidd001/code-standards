@@ -2,6 +2,6 @@
 
 ### Copy to clipboard
 ```
-> pbcopy < filename.txt
+pbcopy < filename.txt
 ```
 it will copy the contents of filename.txt into the clipboard, zang!
