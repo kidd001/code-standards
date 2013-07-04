@@ -104,7 +104,9 @@ h2{
 
 ### Be consistent with vertical spacing.
 
-Avoid setting explicit hard-coded margins on items. Defer these to a variable, and use multiples of that variable to control your vertical spacing. Our designs will often change right up til the end, so it's worth making stuff really easy to change.
+Avoid setting arbitrary margins on items. Defer these to a variable, and use multiples of that variable to control your vertical spacing. Our designs will often change right up til the end, so it's worth making stuff really easy to change.
+
+Here's a great [article](http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/) about vertical rhythm.
 
 Don't do this:
 ```
