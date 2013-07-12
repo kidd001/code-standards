@@ -1,10 +1,13 @@
-- Don't use obscure shortcuts like ```~~```
-    
+We use the [Airbnb style for Javascript](https://github.com/airbnb/javascript) with a few differences:
+
+- Four space indents, no hard tabs, ever.
+- Don't use obscure shortcuts like ```~~```  
+   
 	```javascript
     // bad
-    switch (~~this.getAttribute('data-group')) {
+	~~this.getAttribute('data-group')
     
     // good
-    switch (Math.floor(this.getAttribute('data-group'))) {
+    Math.floor(this.getAttribute('data-group'))
     ```
     
